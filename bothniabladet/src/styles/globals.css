@@ -33,3 +33,32 @@ header {
   font-size: 14px;
   background-color: darkgreen;
 }
+
+/*LOGIN SIDA*/
+.logga{
+  position: relative;
+  margin-top: 100px;
+  margin-left: 600px;
+}
+
+.loginButton{
+  background-color: #4B9A30;
+  color: black;
+  padding: 25px 80px;
+  border-radius: 30px;
+  margin-bottom: 400px;
+}
+
+.parent{
+  margin-top: 0px;
+  margin-right: 200px;
+  padding: 2rem 2rem;
+  text-align: center;
+}
+.child {
+  display: inline-block;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+
