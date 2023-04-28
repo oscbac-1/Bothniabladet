@@ -1,8 +1,11 @@
 import Image from "next/image";
 import {Inter} from "next/font/google";
 import Link from "next/link";
+import { Formik, Field, Form } from 'formik';
 
 const inter = Inter({ subsets: ['latin'] })
+
+
 export default function Home() {
     return (
         <main
@@ -35,6 +38,10 @@ export default function Home() {
                 />
             </div>
 
+            <div>
+
+            </div>
+
             <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
 
                 <h1 class={"loginButton"}>
@@ -47,3 +54,12 @@ export default function Home() {
         </main>
     )
 }
+
+function LoginForm(){
+    return(
+        <div Class="loginbox">
+
+        </div>
+    )
+}
+

@@ -61,4 +61,9 @@ header {
   vertical-align: middle;
 }
 
+.login_box {
+  width: 340px;
+  margin-left: 0px;
+  background-color: #fff;
+}
 
