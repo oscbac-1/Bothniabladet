@@ -60,8 +60,47 @@ export default function Home() {
                 </p>
             </div>
 
-            <div className="py-72">
+            <div className="flex flex-col py-10 items-center">
 
+                <h2 className="text-2xl pb-6">
+                    Välj bild</h2>
+
+                <input className="pb-6" type="file" name="myImage">
+                </input>
+
+                <div className="flex flex-col pb-7">
+                    <label> Beskrivning </label>
+                    <input type="text" name="beskrivning" className="px-20">
+                    </input>
+
+                    <label> Sökord </label>
+                    <input type="text" name="keyword">
+                    </input>
+
+                </div>
+
+                <div className="flex flex-col pt-7">
+
+                    <label> Email </label>
+                    <input type="text" name="email">
+                    </input>
+
+                    <label> Förnamn </label>
+                    <input type="text" name="firstname">
+                    </input>
+
+                    <label> Efternamn </label>
+                    <input type="text" name="lastname">
+                    </input>
+
+                </div>
+
+                <div className="pt-6">
+                <button className="loginButton" type="submit">
+                    Skicka tips
+                </button>
+
+                </div>
             </div>
 
         </main>
