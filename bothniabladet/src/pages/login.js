@@ -9,7 +9,7 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
     return (
         <main
-            className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
+            // className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
         >
 
                 <div class="parent">
@@ -27,7 +27,28 @@ export default function Home() {
 
                 </div>
 
-                <div className="fixed right-2" >
+                <div className="flex flex-row justify-around">
+
+                    <div className="inputEmailPassword py-6">
+                        <h1>
+                            Email
+                        </h1>
+                        <h1>
+                            Lösenord
+                        </h1>
+
+                        <div className="flex justify-center py-6">
+
+                            <h1 className="loginButton">
+                                <Link href="firstPage">
+                                    Logga in
+                                </Link>
+
+                            </h1>
+                        </div>
+                    </div>
+
+
                 <Image class={"logga"}
                     className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
                     src={require('/src/Bothniabladet.png')}
@@ -38,19 +59,25 @@ export default function Home() {
                 />
             </div>
 
-            <div>
+            {/*<div class={"inputEmailPassword"}>*/}
+            {/*    <h1>*/}
+            {/*        Email*/}
+            {/*    </h1>*/}
+            {/*    <h1>*/}
+            {/*        Lösenord*/}
+            {/*    </h1>*/}
 
-            </div>
+            {/*</div>*/}
 
-            <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
+            {/*<div className="flex justify-center">*/}
 
-                <h1 class={"loginButton"}>
-                    <Link href="firstPage" >
-                        Logga in
-                    </Link>
+            {/*    <h1 class="loginButton">*/}
+            {/*        <Link href="firstPage" >*/}
+            {/*            Logga in*/}
+            {/*        </Link>*/}
 
-                </h1>
-            </div>
+            {/*    </h1>*/}
+            {/*</div>*/}
         </main>
     )
 }
