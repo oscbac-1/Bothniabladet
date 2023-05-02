@@ -12,7 +12,18 @@ export default function Home() {
             // className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
         >
 
-                <div class="parent">
+                <div class="parent" className="flex flex-row justify-start">
+
+                    <Link href="/">
+                        <Image
+                            class="basis-1/8 shrink"
+                            src={require('/src/Bothniabladet.png')}
+                            alt="Bothniabladet logga"
+                            width={150}
+                            height={100}
+                            priority
+                        />
+                    </Link>
                     <div class="child">
                         <Link href="login">
                             Logga in
@@ -29,13 +40,16 @@ export default function Home() {
 
                 <div className="flex flex-row justify-around">
 
-                    <div className="inputEmailPassword py-6">
-                        <h1>
-                            Email
-                        </h1>
-                        <h1>
-                            Lösenord
-                        </h1>
+                    <div className="inputEmailPassword py-6 flex flex-col">
+
+                        <label> Email </label>
+                        <input type="text" name="email">
+                        </input>
+
+
+                        <label> Lösenord </label>
+                        <input type="text" name="password">
+                        </input>
 
                         <div className="flex justify-center py-6">
 

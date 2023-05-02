@@ -55,8 +55,8 @@ header {
   color: black;
   padding: 25px 80px;
   border-radius: 30px;
-  margin-bottom: 400px;
-  margin-left: 100px;
+  /*margin-bottom: 400px;*/
+  /*margin-left: 100px;*/
 }
 
 .inputEmailPassword{
@@ -65,8 +65,8 @@ header {
 }
 
 .parent{
-  margin-top: 0px;
-  margin-right: 200px;
+  /*margin-top: 0px;*/
+  /*margin-right: 200px;*/
   padding: 2rem 2rem;
   text-align: center;
 }
