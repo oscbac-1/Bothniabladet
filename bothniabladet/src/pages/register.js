@@ -24,21 +24,20 @@ export default function Home() {
                 />
                 </Link>
 
-                <div class="child">
+                <div className="p-6">
                     <Link href="login">
                         Logga in
                     </Link>
                 </div>
 
-                <div class="child">
+                <div className="p-6">
                     <Link href="register">
                         Registrera
                     </Link>
                 </div>
-
             </div>
 
-            <div className="flex flex-row justify-around">
+            <div className="flex flex-row flex-wrap justify-around items-center">
 
                 <div className="inputEmailPassword py-6 flex flex-col">
 
@@ -65,19 +64,18 @@ export default function Home() {
                             </Link>
                         </h1>
                     </div>
-
                 </div>
 
-
-                <Image class={"logga"}
-                       className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-                       src={require('/src/Bothniabladet.png')}
-                       alt="Bothniabladet logga"
-                       width={600}
-                       height={600}
-                       priority
+                <div className="flex h-fit">
+                <Image  class="basis-1/8 shrink"
+                        className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
+                        src={require('/src/Bothniabladet.png')}
+                        alt="Bothniabladet logga"
+                        priority
                 />
+                </div>
             </div>
+
         </main>
     )
 }

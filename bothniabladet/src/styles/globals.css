@@ -82,6 +82,11 @@ header {
   background-color: #fff;
 }
 
-.itemRight{
 
+.button{
+  border-width: 5px;
+  color: black;
+  padding: 20px 20px;
+  /*margin-bottom: 400px;*/
+  /*margin-left: 100px;*/
 }

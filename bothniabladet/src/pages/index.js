@@ -15,14 +15,16 @@ export default function Home() {
 
             <div class="flex flex-wrap items-center justify-around">
 
-              <Image
-                  class="basis-1/8 shrink"
-                  src={require('/src/Bothniabladet.png')}
-                  alt="Bothniabladet logga"
-                  width={150}
-                  height={100}
-                  priority
-              />
+              <Link href="/">
+                <Image
+                    class="basis-1/8 shrink"
+                    src={require('/src/Bothniabladet.png')}
+                    alt="Bothniabladet logga"
+                    width={150}
+                    height={100}
+                    priority
+                />
+              </Link>
 
               <Image
                   class="basis-1/2 shrink"
