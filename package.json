@@ -1,5 +1,6 @@
 {
   "dependencies": {
+ database-connection
     "autoprefixer": "^10.4.14",
     "dotenv": "^16.0.3",
     "eslint": "^8.39.0",
@@ -14,5 +15,9 @@
   },
   "devDependencies": {
     "prisma": "^4.13.0"
+
+    "dotenv": "^16.0.3",
+    "mongoose": "^7.1.0"
+ main
   }
 }
